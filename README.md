@@ -52,6 +52,7 @@ Requirements
 
 ### CCS6 
 1. install: TivaWare C Series ver.: 2.1.3.156 | http://www.ti.com/tool/sw-tm4c
+
 (other versions also work -> edit variable '${SW_ROOT}')
 
 More info & Help

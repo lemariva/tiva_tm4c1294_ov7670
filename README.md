@@ -25,7 +25,7 @@ Wiring
 | RXD	        | PP1			|
 
 + (*)    Check JP4 -> Select CAN
-+ (**)   I2C pins need pull-up resistors (e.g. 10kOhm connected to 3.3V)
++ (**)   I2C pins need pull-up resistors (e.g. 10kOhm connected to +3.3V)
 + (***)  Buy on ebay: https://goo.gl/RX4Yy0
 + (****) Buy on ebay: https://goo.gl/8sujdY
 
@@ -37,7 +37,7 @@ To take/get a picture you need Python 2.7:
 ```
 python camview_tiva.py COMxx
 ```
-'xx' -> UART port 
+`xx` -> UART port 
 
 and you get:
 
@@ -46,9 +46,9 @@ and you get:
 Requirements 
 ------------
 ### pyGame and pySerial:
-1. install 'pip': https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip
-2. install 'pyGame': 'python -m pip install pygame'
-3. install 'pySerial': 'python -m pip install pyserial'
+1. install `pip`: https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip
+2. install `pyGame`: `python -m pip install pygame`
+3. install `pySerial`: `python -m pip install pyserial`
 
 ### CCS6 
 1. install: TivaWare C Series ver.: 2.1.3.156 | http://www.ti.com/tool/sw-tm4c

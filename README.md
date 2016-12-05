@@ -26,8 +26,8 @@ Wiring
 
 + (*)    Check JP4 -> Select CAN
 + (**)   I2C pins need pull-up resistors (e.g. 10kOhm connected to +3.3V)
-+ (***)  Buy on ebay: https://goo.gl/RX4Yy0
-+ (****) Buy on ebay: https://goo.gl/8sujdY
++ (***)  Buy on ebay: https://goo.gl/52xkt3
++ (****) Buy on ebay: https://goo.gl/f7I005
 
 
 Usage

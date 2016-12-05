@@ -5,7 +5,7 @@ This code allows taking pictures using the `ov7670` camera with `AL422 FIFO` and
 
 Wiring
 ------------
-#### `ov7670` <-> `Tiva C EK-TM4C1294XL`
+#### `ov7670 (****)` <-> `Tiva C EK-TM4C1294XL`
 | ov7670         	| EK-TM4C1294XL |
 | ----------------- |:-------------:|
 | VCC (PIN1)	 	| +3v3			|
@@ -18,16 +18,17 @@ Wiring
 | WEN (PIN7)      	| PM7		    |
 | D0-D7 (PIN13-20) 	| PK0-PK7	    |
 
-#### `CP2102` <-> `Tiva C EK-TM4C1294XL`
-| CP2102 (***)  | EK-TM4C1294XL |
+#### `CP2102 (****)` <-> `Tiva C EK-TM4C1294XL`
+| CP2102 		| EK-TM4C1294XL |
 | ------------- |:-------------:|
 | TXD	        | PP0			|
 | RXD	        | PP1			|
 
 + (*)    Check JP4 -> Select CAN
 + (**)   I2C pins need pull-up resistors (e.g. 10kOhm connected to 3.3V)
-+ (***)  Buy on ebay: https://goo.gl/8sujdY
-+ (****) Buy on ebay: https://goo.gl/RX4Yy0
++ (***)  Buy on ebay: https://goo.gl/RX4Yy0
++ (****) Buy on ebay: https://goo.gl/8sujdY
+
 
 Usage
 -----

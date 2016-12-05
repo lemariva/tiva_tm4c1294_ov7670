@@ -5,7 +5,7 @@ This code allows taking pictures using the `ov7670` camera with `AL422 FIFO` and
 
 Wiring
 ------------
-#### `ov7670 (****)` <-> `Tiva C EK-TM4C1294XL`
+#### `ov7670 (***)` <-> `Tiva C EK-TM4C1294XL`
 | ov7670         	| EK-TM4C1294XL |
 | ----------------- |:-------------:|
 | VCC (PIN1)	 	| +3v3			|

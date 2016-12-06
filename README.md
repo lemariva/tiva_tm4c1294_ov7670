@@ -23,6 +23,7 @@ Wiring
 | ------------- |:-------------:|
 | TXD	        | PP0			|
 | RXD	        | PP1			|
+| GND	        | GND			|
 
 + (*)    Check JP4 -> Select CAN
 + (**)   I2C pins need pull-up resistors (e.g. 10kOhm connected to +3.3V)
@@ -57,6 +58,7 @@ Requirements
 
 More info & Help
 ----------------
++ Blog: https://goo.gl/x28Lta 
 * EK-TM4C1294XL: http://www.ti.com/tool/ek-tm4c1294xl
 * ov7670: http://www.voti.nl/docs/OV7670.pdf
 * AL422B: http://www.averlogic.com/AL422B.asp
@@ -70,3 +72,7 @@ Changelog
 Credit
 ------
 Based on : https://github.com/desaster/ov7670fifotest
+
+Contact
+------
+* https://goo.gl/x28Lta
